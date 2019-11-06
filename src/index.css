@@ -1,0 +1,191 @@
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style:none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    width: 120px;
+    margin-top: 10px;
+}
+.headerwrap input{
+    width: 200px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius:5px;
+    border: 0;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+    text-decoration:none;
+}
+/* main */
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+.content{
+    width: 900px;
+    float: left;
+}
+.topicsdiv{
+    float: left;
+    width: 900px;
+    height: 50px;
+    padding: 10px 0;
+}
+.img1{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.img2{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.p1{
+    float: left;
+    font-size: 12px;
+    margin: 10px 20px 0 10px;
+}
+.p2{
+    float: left;
+    margin: 8px 0 0 0;
+    width:600px;
+    line-height: 26px;
+    overflow: hidden;
+    color: black;
+}
+.p3{
+    float: right;
+    margin: 0 20px 0 20px;
+}
+.tabdiv{
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    padding-top: 30px;
+}
+.tabul{
+    margin: 10px 0 10px 250px;
+}
+.tabli a{
+    padding: 4px 10px;
+    border: 1px solid gray;
+}
+.sider{
+    width: 270px;
+    float: right;
+}
+.msg{
+    height: 120px;
+    background-color: #fff;
+    padding-left: 10px;
+}
+.msgp1{
+    font-size: 14px;
+    color: black;
+    padding-top: 10px;
+    margin: 0;
+}
+.msgp2{
+    font-size: 12px;
+    color: black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.msg button{
+    width:150px;
+    height: 40px;
+    color:#fff;
+    background-color:rgb(76, 180, 250) ;
+    border-radius: 5px;
+    border:1px solid #fff;
+}
+.img{
+    margin-top: 15px;
+    padding: 15px;
+    background-color:#fff;
+}
+.img img{
+    width: 240px;
+}
+.topics{
+    margin-top: 15px;
+    background-color: #fff;
+}
+#p{
+    line-height: 40px;
+    font-size: 14px;
+    background-color: rgb(235, 235, 235);
+    padding-left: 10px;
+}
+.topics a{
+    font-size: 14px;
+    display:block;
+    padding-left: 10px;
+    color: black;
+    line-height: 30px;
+    text-decoration:none;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.league{
+    margin-top: 15px;
+    background-color:#fff;
+}
+.league li{
+    line-height: 30px;
+    padding-left: 10px;
+}
+.league a{
+    color: black;
+    text-decoration:none;
+}
+.friend{
+    margin-top: 15px;
+    background-color:#fff;
+}
+.friend img{
+    width: 150px;
+    height: 60px;
+    padding-left: 10px;
+}
+#img{
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+}
+.erweima{
+    margin-top: 15px;
+    background-color:#fff;
+}
+.erweima img{
+    margin: 10px 45px 0 45px;
+    width: 180px;
+    height: 180px;
+}
+#p1{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
